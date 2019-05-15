@@ -1,0 +1,33 @@
+{
+  "name": "web-check",
+  "version": "1.0.0",
+  "description": "Take a list and check it for errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfxworks/web-check.git"
+  },
+  "keywords": [
+    "webcheck",
+    "web",
+    "check"
+  ],
+  "author": "quantomworks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfxworks/web-check/issues"
+  },
+  "homepage": "https://github.com/sfxworks/web-check#readme",
+  "dependencies": {
+    "check-links": "^1.1.7",
+    "xml-js": "^1.6.11"
+  },
+  "bin": {
+    "sitecheck": "./index.js"
+  }
+}
